@@ -12,7 +12,6 @@ class Home extends Component {
             <Container>
                 <StatusBar translucent={false} barStlye="light-content"/>
                 <Header />
-                
             </Container>
         );
     }

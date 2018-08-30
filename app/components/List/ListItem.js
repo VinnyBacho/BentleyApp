@@ -5,18 +5,18 @@ import Icon from './Icon';
 
 import styles from './styles';
 
-const ListItem = ( text, onPress, visible = true, customIcon = null, iconBackground) => (
-    <TouchableOpacity>
-        <View>
-            <Text>{text}</Text>
+const ListItem = ( text, onPress, customIcon = null, iconBackground) => (
+    <TouchableOpacity onPress={onPress}>
+        <View style={styles.row}>
+            <Icon/>
+            <Text style={styles.text}>{text}</Text>
         </View>
     </TouchableOpacity>
 );
 
-ListImte.propTypes={
+ListItem.propTypes={
     text: PropTypes.string,
     onPress: PropTypes.func,
-    visible: PropTypes.bool,
     customIcon: PropTypes.element,
     iconBackground: PropTypes.string,
 };
