@@ -5,12 +5,10 @@ import Icon from './Icon';
 
 import styles from './styles';
 
-const ListItem = ( text, onPress, customIcon = null, iconBackground) => (
-    <TouchableOpacity onPress={onPress}>
-        <View style={styles.row}>
-            <Icon
-                iconImage={customIcon}
-            />
+const ListItem = ( text, onPress) => (
+    <TouchableOpacity underlayColor={styles.underlayColor} onPress={onPress}>
+        <View style={styles.column}>
+            <Icon />
             <Text style={styles.text}>{text}</Text>
         </View>
     </TouchableOpacity>
@@ -19,8 +17,6 @@ const ListItem = ( text, onPress, customIcon = null, iconBackground) => (
 ListItem.propTypes={
     text: PropTypes.string,
     onPress: PropTypes.func,
-    customIcon: PropTypes.element,
-    iconBackground: PropTypes.string,
 };
 
 export default ListItem;

@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
-import { StatusBar, Text, Image } from 'react-native';
+import { StatusBar, FlatList, Text} from 'react-native';
 
 import { Container } from '../components/Container';
 import { Header } from '../components/Header';
-import { Icon } from '../components/List';
+import { ListItem } from '../components/List';
 
 const TEMP_TEXT = 'Bentley University';
+
+clickPress = () => {
+    console.log("beep");
+};
+
 
 class Home extends Component {
     render() {
@@ -13,8 +18,16 @@ class Home extends Component {
             <Container>
                 <StatusBar translucent={false} barStlye="light-content"/>
                 <Header />
-                <Icon />
-                <Text>{TEMP_TEXT}</Text>
+                <FlatList
+                    renderItem={() => (
+                        <ListItem 
+                            text={TEMP_TEXT}
+                            onPress={() => this.clickPress()}
+                        />
+                    )}
+                    keyExtractor={item => item}
+                />
+                <Text>Hello</Text>
             </Container>
         );
     }

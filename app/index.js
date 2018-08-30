@@ -6,7 +6,7 @@ import Loading from './screens/Loading';
 
 EStyleSheet.build({
     $bentleyLightBlue: '#0075BE',
-    $bentleyDarkBLue: '#365375',
+    $bentleyDarkBlue: '#365375',
     $bentleyLightGrey: '#B3C4CC',
     $bentleyDarkGrey: '#7B858F',
     $bentleyYellow: '#F0B82D',

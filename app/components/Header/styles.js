@@ -13,10 +13,10 @@ export default EStyleSheet.create({
             paddingTop: 20,
         },
         backgroundColor: '#0075BE',
+        alignItems: 'center',
     },
     image: {
-        width: imageWidth,
-        height: 100,
-        paddingVertical: 20,
+        width: imageWidth - 50,
+        height: 125,
     }, 
 });
