@@ -8,7 +8,9 @@ import styles from './styles';
 const ListItem = ( text, onPress, customIcon = null, iconBackground) => (
     <TouchableOpacity onPress={onPress}>
         <View style={styles.row}>
-            <Icon/>
+            <Icon
+                iconImage={customIcon}
+            />
             <Text style={styles.text}>{text}</Text>
         </View>
     </TouchableOpacity>

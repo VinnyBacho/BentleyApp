@@ -20,5 +20,3 @@ export default EStyleSheet.create({
         paddingVertical: 20,
     }, 
 });
-
-//adding comments to see if git works
