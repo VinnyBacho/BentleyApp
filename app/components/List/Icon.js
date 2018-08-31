@@ -5,12 +5,12 @@ import PropTypes from 'prop-types';
 import styles from './styles';
 
 const Icon = () => (
-    <View style={styles.icon}>
-        <Image 
-            style={styles.image}
+    <View style={styles.iconContainer}>
+        {/* <Image 
+            style={styles.icon}
             resizeMode="contain" 
             source={require('./images/_ionicons_svg_md-school.png')} 
-        />
+        /> */}
     </View>
 );
 

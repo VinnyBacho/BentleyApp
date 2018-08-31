@@ -1,9 +1,9 @@
 import EStyleSheet from 'react-native-extended-stylesheet';
 
 export default EStyleSheet.create({
-    icon: {
-        width: 18,
-        height: 18,
+    iconContainer: {
+        width: 25,
+        height: 25,
     },
     column: {
         paddingHorizontal: 20,
@@ -15,11 +15,11 @@ export default EStyleSheet.create({
     text: {
         fontSize: 16,
     },
-    image: {
-        backgroundColor: '$bentleyLightBlue',
-        width: 36,
-        height: 36,
-        borderRadius: 18,
+    icon: {
+        backgroundColor: 'transparent',
+        width: 50,
+        height: 50,
+        borderRadius: 25,
         alignItems: 'center',
         justifyContent: 'center',
     },

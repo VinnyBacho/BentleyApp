@@ -3,7 +3,8 @@ import { StatusBar, FlatList, Text} from 'react-native';
 
 import { Container } from '../components/Container';
 import { Header } from '../components/Header';
-import { ListItem } from '../components/List';
+import { ListItem, Icon } from '../components/List';
+import { GridLayout } from '../components/GridLayout';
 
 const TEMP_TEXT = 'Bentley University';
 
@@ -18,16 +19,7 @@ class Home extends Component {
             <Container>
                 <StatusBar translucent={false} barStlye="light-content"/>
                 <Header />
-                <FlatList
-                    renderItem={() => (
-                        <ListItem 
-                            text={TEMP_TEXT}
-                            onPress={() => this.clickPress()}
-                        />
-                    )}
-                    keyExtractor={item => item}
-                />
-                <Text>Hello</Text>
+                <GridLayout/>           
             </Container>
         );
     }

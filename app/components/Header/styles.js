@@ -14,6 +14,7 @@ export default EStyleSheet.create({
         },
         backgroundColor: '#0075BE',
         alignItems: 'center',
+        marginBottom: 20,
     },
     image: {
         width: imageWidth - 50,
