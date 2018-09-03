@@ -5,6 +5,7 @@ import { Container } from '../components/Container';
 import { Header } from '../components/Header';
 import { ListItem, Icon } from '../components/List';
 import { GridLayout } from '../components/GridLayout';
+import { Footer }  from '../components/Footer';
 
 const TEMP_TEXT = 'Bentley University';
 
@@ -19,7 +20,8 @@ class Home extends Component {
             <Container>
                 <StatusBar translucent={false} barStlye="light-content"/>
                 <Header />
-                <GridLayout/>           
+                <GridLayout/>   
+                <Footer />       
             </Container>
         );
     }
