@@ -19,6 +19,13 @@ export default EStyleSheet.create({
     },
     image: {
         height: 50,
-        width: 50,
+        width: 75,
+    },
+    text: {
+        width: 75,
+        height: 50,
+        flexWrap: 'wrap',
+        textAlign: 'center',
+        justifyContent: 'center',
     }
 });

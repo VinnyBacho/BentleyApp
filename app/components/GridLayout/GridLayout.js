@@ -13,7 +13,7 @@ export default class GridLayout extends Component {
                         resizeMode="contain" 
                         source={require('./images/_ionicons_svg_md-school.png')}
                     />
-                    <Text>Academics</Text>
+                    <Text style={styles.text}>Academics</Text>
                 </View>
                 <View style={styles.box}>
                     <Image 
@@ -21,7 +21,7 @@ export default class GridLayout extends Component {
                         resizeMode="contain" 
                         source={require('./images/_ionicons_svg_md-school.png')}
                     />
-                    <Text>Athletics</Text>
+                    <Text style={styles.text}>Athletics</Text>
                 </View>
                 <View style={styles.box}>
                     <Image 
@@ -29,7 +29,7 @@ export default class GridLayout extends Component {
                         resizeMode="contain" 
                         source={require('./images/_ionicons_svg_md-school.png')}
                     />
-                    <Text>Bus Tracker</Text>
+                    <Text style={styles.text}>Bus Tracker</Text>
                 </View>
                 <View style={styles.box}>
                     <Image 
@@ -37,7 +37,7 @@ export default class GridLayout extends Component {
                         resizeMode="contain" 
                         source={require('./images/_ionicons_svg_md-school.png')}
                     />
-                    <Text>Course Catalog</Text>
+                    <Text style={styles.text}>Course Catalog</Text>
                 </View>
                 <View style={styles.box}>
                     <Image 
@@ -45,7 +45,7 @@ export default class GridLayout extends Component {
                         resizeMode="contain" 
                         source={require('./images/_ionicons_svg_md-school.png')}
                     />
-                    <Text>Dining</Text>
+                    <Text style={styles.text}>Dining</Text>
                 </View>
                 <View style={styles.box}>
                     <Image 
@@ -53,7 +53,7 @@ export default class GridLayout extends Component {
                         resizeMode="contain" 
                         source={require('./images/_ionicons_svg_md-school.png')}
                     />
-                    <Text>Directory</Text>
+                    <Text style={styles.text}>Directory</Text>
                 </View>
                 <View style={styles.box}>
                     <Image 
@@ -61,7 +61,7 @@ export default class GridLayout extends Component {
                         resizeMode="contain" 
                         source={require('./images/_ionicons_svg_md-school.png')}
                     />
-                    <Text>Emergency</Text>
+                    <Text style={styles.text}>Emergency</Text>
                 </View>
                 <View style={styles.box}>
                     <Image 
@@ -69,7 +69,7 @@ export default class GridLayout extends Component {
                         resizeMode="contain" 
                         source={require('./images/_ionicons_svg_md-school.png')}
                     />
-                    <Text>Events</Text>
+                    <Text style={styles.text}>Events</Text>
                 </View>
                 <View style={styles.box}>
                     <Image 
@@ -77,7 +77,7 @@ export default class GridLayout extends Component {
                         resizeMode="contain" 
                         source={require('./images/_ionicons_svg_md-school.png')}
                     />
-                    <Text>Map</Text>
+                    <Text style={styles.text}>Map</Text>
                 </View>
                 <View style={styles.box}>
                     <Image 
@@ -85,7 +85,7 @@ export default class GridLayout extends Component {
                         resizeMode="contain" 
                         source={require('./images/_ionicons_svg_md-school.png')}
                     />
-                    <Text>Maintenance</Text>
+                    <Text style={styles.text}>Maintenance</Text>
                 </View>
                 <View style={styles.box}>
                     <Image 
@@ -93,7 +93,7 @@ export default class GridLayout extends Component {
                         resizeMode="contain" 
                         source={require('./images/_ionicons_svg_md-school.png')}
                     />
-                    <Text>Residential Life</Text>
+                    <Text style={styles.text}>Residential Life</Text>
                 </View>
                 <View style={styles.box}>
                     <Image 
@@ -101,7 +101,7 @@ export default class GridLayout extends Component {
                         resizeMode="contain" 
                         source={require('./images/_ionicons_svg_md-school.png')}
                     />
-                    <Text>Resources</Text>
+                    <Text style={styles.text}>Resources</Text>
                 </View>
             </View>
         );
