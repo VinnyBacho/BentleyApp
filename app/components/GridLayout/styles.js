@@ -20,11 +20,9 @@ export default EStyleSheet.create({
     image: {
         height: 50,
         width: 50,
-        alignItems: 'center',
-        justifyContent: 'center',
     },
     text: {
-        width: 75,
+        width: 80,
         height: 50,
         flexWrap: 'wrap',
         textAlign: 'center',

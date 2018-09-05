@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Text, View, Image } from 'react-native';
-import {Ionicons, MaterialCommunityIcons, FontAwesome, Foundation} from '@expo/vector-icons';
+import {Ionicons, MaterialCommunityIcons, FontAwesome, Foundation, Entypo} from '@expo/vector-icons';
 
 import styles from './styles';
 
@@ -11,7 +11,7 @@ export default class GridLayout extends Component {
                 <View style={styles.box}>
                     <Ionicons 
                         name="md-school"
-                        size={55}
+                        size={50}
                         style={styles.image}
                         resizeMode="contain" 
                     />
@@ -20,7 +20,7 @@ export default class GridLayout extends Component {
                 <View style={styles.box}>
                     <MaterialCommunityIcons 
                         name="football-helmet"
-                        size={55}
+                        size={50}
                         style={styles.image}
                         resizeMode="contain" 
                     />
@@ -29,47 +29,52 @@ export default class GridLayout extends Component {
                 <View style={styles.box}>
                     <FontAwesome 
                         name="bus"
-                        size={55}
+                        size={50}
                         style={styles.image}
                         resizeMode="contain" 
                     />
                     <Text style={styles.text}>Bus Tracker</Text>
                 </View>
                 <View style={styles.box}>
-                <Ionicons 
-                        name="md-school"
+                <Entypo 
+                        name="open-book"
+                        size={50}
                         style={styles.image}
                         resizeMode="contain" 
                     />
                     <Text style={styles.text}>Course Catalog</Text>
                 </View>
                 <View style={styles.box}>
-                    <Ionicons 
-                        name="md-school"
+                    <MaterialCommunityIcons 
+                        name="food"
+                        size={50}
                         style={styles.image}
                         resizeMode="contain" 
                     />
                     <Text style={styles.text}>Dining</Text>
                 </View>
                 <View style={styles.box}>
-                <Ionicons 
-                        name="md-school"
+                <MaterialCommunityIcons 
+                        name="magnify"
+                        size={50}
                         style={styles.image}
                         resizeMode="contain" 
                     />
                     <Text style={styles.text}>Directory</Text>
                 </View>
                 <View style={styles.box}>
-                <Ionicons 
-                        name="md-school"
+                <MaterialCommunityIcons 
+                        name="hospital"
+                        size={50}
                         style={styles.image}
                         resizeMode="contain" 
                     />
                     <Text style={styles.text}>Emergency</Text>
                 </View>
                 <View style={styles.box}>
-                <Ionicons 
-                        name="md-school"
+                <FontAwesome 
+                        name="calendar"
+                        size={50}
                         style={styles.image}
                         resizeMode="contain" 
                     />
@@ -78,9 +83,10 @@ export default class GridLayout extends Component {
                 <View style={styles.box}>
                     <Foundation 
                         name="map"
-                        size={55}
+                        size={50}
                         style={styles.image}
-                        resizeMode="contain" 
+                        resizeMode="contain"
+                        textAlign="center" 
                     />
                     <Text style={styles.text}>Map</Text>
                 </View>
@@ -96,7 +102,7 @@ export default class GridLayout extends Component {
                 <View style={styles.box}>
                 <FontAwesome 
                         name="building"
-                        size={55}
+                        size={50}
                         //@Todo: align items
                         alignItems="center"
                         style={styles.image}
