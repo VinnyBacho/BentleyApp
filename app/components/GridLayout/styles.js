@@ -19,7 +19,9 @@ export default EStyleSheet.create({
     },
     image: {
         height: 50,
-        width: 75,
+        width: 50,
+        alignItems: 'center',
+        justifyContent: 'center',
     },
     text: {
         width: 75,
