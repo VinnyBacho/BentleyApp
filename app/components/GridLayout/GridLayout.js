@@ -13,7 +13,7 @@ export default class GridLayout extends Component {
                         name="md-school"
                         size={50}
                         style={styles.image}
-                        resizeMode="contain" 
+                         
                     />
                     <Text style={styles.text}>Academics</Text>
                 </View>
@@ -22,7 +22,7 @@ export default class GridLayout extends Component {
                         name="football-helmet"
                         size={50}
                         style={styles.image}
-                        resizeMode="contain" 
+                         
                     />
                     <Text style={styles.text}>Athletics</Text>
                 </View>
@@ -31,7 +31,7 @@ export default class GridLayout extends Component {
                         name="bus"
                         size={50}
                         style={styles.image}
-                        resizeMode="contain" 
+                         
                     />
                     <Text style={styles.text}>Bus Tracker</Text>
                 </View>
@@ -40,7 +40,7 @@ export default class GridLayout extends Component {
                         name="open-book"
                         size={50}
                         style={styles.image}
-                        resizeMode="contain" 
+                         
                     />
                     <Text style={styles.text}>Course Catalog</Text>
                 </View>
@@ -49,7 +49,7 @@ export default class GridLayout extends Component {
                         name="food"
                         size={50}
                         style={styles.image}
-                        resizeMode="contain" 
+                         
                     />
                     <Text style={styles.text}>Dining</Text>
                 </View>
@@ -58,7 +58,7 @@ export default class GridLayout extends Component {
                         name="magnify"
                         size={50}
                         style={styles.image}
-                        resizeMode="contain" 
+                         
                     />
                     <Text style={styles.text}>Directory</Text>
                 </View>
@@ -67,7 +67,7 @@ export default class GridLayout extends Component {
                         name="hospital"
                         size={50}
                         style={styles.image}
-                        resizeMode="contain" 
+                         
                     />
                     <Text style={styles.text}>Emergency</Text>
                 </View>
@@ -76,7 +76,7 @@ export default class GridLayout extends Component {
                         name="calendar"
                         size={50}
                         style={styles.image}
-                        resizeMode="contain" 
+                         
                     />
                     <Text style={styles.text}>Events</Text>
                 </View>
@@ -85,7 +85,7 @@ export default class GridLayout extends Component {
                         name="map"
                         size={50}
                         style={styles.image}
-                        resizeMode="contain"
+                        
                         textAlign="center" 
                     />
                     <Text style={styles.text}>Map</Text>
@@ -95,26 +95,25 @@ export default class GridLayout extends Component {
                         name="wrench"
                         size={50}
                         style={styles.image}
-                        resizeMode="contain" 
+                         
                     />
                     <Text style={styles.text}>Maintenance</Text>
                 </View>
                 <View style={styles.box}>
-                <FontAwesome 
-                        name="building"
+                    <FontAwesome 
+                        name="home"
                         size={50}
                         //@Todo: align items
-                        alignItems="center"
                         style={styles.image}
-                        resizeMode="contain" 
+                         
                     />
                     <Text style={styles.text}>Residential Life</Text>
                 </View>
                 <View style={styles.box}>
-                <Ionicons 
-                        name="md-school"
+                    <FontAwesome 
+                        name="cogs"
                         style={styles.image}
-                        resizeMode="contain" 
+                        size={50}
                     />
                     <Text style={styles.text}>Resources</Text>
                 </View>

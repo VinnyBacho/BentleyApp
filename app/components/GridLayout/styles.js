@@ -20,6 +20,7 @@ export default EStyleSheet.create({
     image: {
         height: 50,
         width: 50,
+        textAlign: 'center',
     },
     text: {
         width: 80,
