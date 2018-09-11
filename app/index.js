@@ -11,7 +11,7 @@ EStyleSheet.build({
     $bentleyDarkGrey: '#7B858F',
     $bentleyYellow: '#F0B82D',
 
-    $outline: 1,
+    // $outline: 1,
 });
 
 export default () => <Home />;

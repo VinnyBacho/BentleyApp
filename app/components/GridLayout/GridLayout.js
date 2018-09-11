@@ -11,16 +11,15 @@ export default class GridLayout extends Component {
                 <View style={styles.box}>
                     <Ionicons 
                         name="md-school"
-                        size={50}
+                        size={60}
                         style={styles.image}
-                         
                     />
                     <Text style={styles.text}>Academics</Text>
                 </View>
                 <View style={styles.box}>
                     <MaterialCommunityIcons 
                         name="football-helmet"
-                        size={50}
+                        size={60}
                         style={styles.image}
                          
                     />
@@ -29,7 +28,7 @@ export default class GridLayout extends Component {
                 <View style={styles.box}>
                     <FontAwesome 
                         name="bus"
-                        size={50}
+                        size={60}
                         style={styles.image}
                          
                     />
@@ -38,7 +37,7 @@ export default class GridLayout extends Component {
                 <View style={styles.box}>
                 <Entypo 
                         name="open-book"
-                        size={50}
+                        size={60}
                         style={styles.image}
                          
                     />
@@ -47,7 +46,7 @@ export default class GridLayout extends Component {
                 <View style={styles.box}>
                     <MaterialCommunityIcons 
                         name="food"
-                        size={50}
+                        size={60}
                         style={styles.image}
                          
                     />
@@ -56,7 +55,7 @@ export default class GridLayout extends Component {
                 <View style={styles.box}>
                 <MaterialCommunityIcons 
                         name="magnify"
-                        size={50}
+                        size={60}
                         style={styles.image}
                          
                     />
@@ -65,7 +64,7 @@ export default class GridLayout extends Component {
                 <View style={styles.box}>
                 <MaterialCommunityIcons 
                         name="hospital"
-                        size={50}
+                        size={60}
                         style={styles.image}
                          
                     />
@@ -74,7 +73,7 @@ export default class GridLayout extends Component {
                 <View style={styles.box}>
                 <FontAwesome 
                         name="calendar"
-                        size={50}
+                        size={60}
                         style={styles.image}
                          
                     />
@@ -83,7 +82,7 @@ export default class GridLayout extends Component {
                 <View style={styles.box}>
                     <Foundation 
                         name="map"
-                        size={50}
+                        size={60}
                         style={styles.image}
                         
                         textAlign="center" 
@@ -93,7 +92,7 @@ export default class GridLayout extends Component {
                 <View style={styles.box}>
                 <FontAwesome 
                         name="wrench"
-                        size={50}
+                        size={60}
                         style={styles.image}
                          
                     />
@@ -102,7 +101,7 @@ export default class GridLayout extends Component {
                 <View style={styles.box}>
                     <FontAwesome 
                         name="home"
-                        size={50}
+                        size={60}
                         //@Todo: align items
                         style={styles.image}
                          
@@ -113,7 +112,7 @@ export default class GridLayout extends Component {
                     <FontAwesome 
                         name="cogs"
                         style={styles.image}
-                        size={50}
+                        size={60}
                     />
                     <Text style={styles.text}>Resources</Text>
                 </View>
