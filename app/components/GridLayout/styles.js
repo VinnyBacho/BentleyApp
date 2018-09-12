@@ -66,4 +66,7 @@ export default EStyleSheet.create({
     resources: {
         color: '$bentleyLightGrey',
     },
+    underlayColor: {
+        color: 'black',
+    },
 });

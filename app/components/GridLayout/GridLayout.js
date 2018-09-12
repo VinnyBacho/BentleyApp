@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Text, View, Image } from 'react-native';
+import {Text, View, TouchableHighlight } from 'react-native';
 import {MaterialIcons, MaterialCommunityIcons, FontAwesome, Foundation, Entypo} from '@expo/vector-icons';
 
 import styles from './styles';
@@ -8,14 +8,16 @@ export default class GridLayout extends Component {
     render() {
         return (
             <View style={styles.container}>
-                <View style={styles.box}>
-                    <MaterialIcons 
-                        name="school"
-                        size={60}
-                        style={[styles.image, styles.school]}
-                    />
-                    <Text style={styles.text}>Academics</Text>
-                </View>
+                <TouchableHighlight underlayColor={styles.underlayColor} onPress={console.log("press")}>
+                    <View style={styles.box}>
+                        <MaterialIcons 
+                            name="school"
+                            size={60}
+                            style={[styles.image, styles.school]}
+                        />
+                        <Text style={styles.text}>Academics</Text>
+                    </View>
+                </TouchableHighlight>
                 <View style={styles.box}>
                     <MaterialCommunityIcons 
                         name="football-helmet"
