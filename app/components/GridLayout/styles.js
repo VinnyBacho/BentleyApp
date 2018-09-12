@@ -25,7 +25,9 @@ export default EStyleSheet.create({
         width: 60,
         textAlign: 'center',
         //TODO: Find good color and style combinations
-        color: '#FFFF22',
+        color: '$bentleyLightBlue',
+        //borderRadius: 30,
+        //backgroundColor: '$bentleyLightBlue',
     },
     text: {
         flex: 1,
@@ -33,5 +35,35 @@ export default EStyleSheet.create({
         // flexWrap: 'wrap',
         textAlign: 'center',
         justifyContent: 'center',
-    }
+    },
+    school: {
+        color: 'black',
+    },
+    bus: {
+        color: '$bentleyYellow',
+    },
+    food: {
+        color: '$bentleyYellow',
+    },
+    directory: {
+        color: '$bentleyDarkBlue',
+    },
+    emergency: {
+        color: '$red',    
+    },
+    events: {
+        color: '$orange',
+    },
+    map: {
+        color: '$googleMapsGreen',
+    },
+    maintenance: {
+        color: '$bentleyDarkGrey',
+    },
+    resident: {
+        color: '$darkRed',
+    },
+    resources: {
+        color: '$bentleyLightGrey',
+    },
 });

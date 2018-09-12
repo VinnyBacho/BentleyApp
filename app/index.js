@@ -9,7 +9,12 @@ EStyleSheet.build({
     $bentleyDarkBlue: '#365375',
     $bentleyLightGrey: '#B3C4CC',
     $bentleyDarkGrey: '#7B858F',
-    $bentleyYellow: '#F0B82D',
+    $bentleyYellow: '#FFBC00',
+
+    $red: '#FF4100',
+    $darkRed: '#822F2B',
+    $orange: '#FF8E00',
+    $googleMapsGreen: '#1EA362',
 
     // $outline: 1,
 });
