@@ -18,7 +18,7 @@ class Home extends Component {
     render() {
         return (
             <Container>
-                <StatusBar translucent={false} barStlye="light-content"/>
+                <StatusBar backgroundColor='blue' barStyle="light-content" />
                 <Header />
                 <GridLayout/>   
                 <Footer />       

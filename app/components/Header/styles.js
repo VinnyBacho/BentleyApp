@@ -1,7 +1,11 @@
 import EStyleSheet from 'react-native-extended-stylesheet';
-import { Dimensions } from 'react-native';
+import { Dimensions, Platform, NativeModules } from 'react-native';
+
+const { StatusBarManager } = NativeModules;
 
 const imageWidth = Dimensions.get('window').width;
+const STATUSBAR_HEIGHT = Platform.OS === 'ios' ? 20 : StatusBarManager.HEIGHT;
+
 
 export default EStyleSheet.create({
     container: {
@@ -9,15 +13,15 @@ export default EStyleSheet.create({
         left: 0,
         right: 0,
         top: 0,
-        '@media ios': {
-            paddingTop: 20,
-        },
+        paddingTop: STATUSBAR_HEIGHT,
         backgroundColor: '#0075BE',
         alignItems: 'center',
-        marginBottom: 20,
+        flex: 1,
     },
     image: {
+        resizeMode: 'contain',
+        alignSelf: 'center',
         width: imageWidth - 50,
-        height: 125,
+        height: 100,
     }, 
 });
