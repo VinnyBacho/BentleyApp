@@ -23,4 +23,10 @@ export default EStyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
     },
+    seperator: {
+        marginLeft: 20,
+        backgroundColor: '$bentleyLightBlue',
+        flex: 1,
+        height: 2,
+    },
 });

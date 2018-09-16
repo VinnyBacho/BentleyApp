@@ -3,7 +3,6 @@ import { StatusBar, FlatList, Text} from 'react-native';
 
 import { Container } from '../components/Container';
 import { Header } from '../components/Header';
-import { ListItem, Icon } from '../components/List';
 import { GridLayout } from '../components/GridLayout';
 import { Footer }  from '../components/Footer';
 
