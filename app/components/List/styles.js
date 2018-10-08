@@ -29,4 +29,7 @@ export default EStyleSheet.create({
         flex: 1,
         height: 2,
     },
+    underlayColor: {
+        backgroundColor: '$bentleyDarkBlue',
+    }
 });

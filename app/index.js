@@ -3,6 +3,7 @@ import EStyleSheet from 'react-native-extended-stylesheet';
 
 import Home from './screens/Home';
 import Loading from './screens/Loading';
+import BusTracker from './screens/BusTracker';
 
 EStyleSheet.build({
     $bentleyLightBlue: '#0075BE',
@@ -19,4 +20,4 @@ EStyleSheet.build({
     // $outline: 1,
 });
 
-export default () => <Home />;
+export default () => <BusTracker />;
