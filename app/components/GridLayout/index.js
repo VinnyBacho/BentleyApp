@@ -1,4 +1,5 @@
-import GridLayout from './GridLayout';
-import styles from './styles';
+import GridLayout from "./GridLayout";
+import GridItem from "./GridItem";
+import styles from "./styles";
 
-export {GridLayout, styles}
+export { GridLayout, GridItem, styles };

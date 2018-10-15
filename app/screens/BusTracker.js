@@ -1,36 +1,60 @@
 import React, { Component } from 'react';
-import { FlatList, View, StatusBar, Text } from 'react-native';
-import { MaterialIcons } from '@expo/vector-icons';
-
+import { View, StatusBar, Linking } from 'react-native';
 import { List, ListItem } from 'react-native-elements';
+import PropTypes from 'prop-types';
+import { connect } from 'react-redux';
 
 const list = [
     {
         title: 'Live Bus Tracker',
-        icon: 'av-timer'
+        icon: 'link'
     },
     {
-        title: 'Timetable PDF',
-        icon: 'flight-takeoff'
+        title: 'Harvard Square Timetable',
+        icon: 'library-books'
+    },
+    {
+        title: 'Bentley Loop Timetable',
+        icon: 'library-books',
     }
 ]
 
+const HarvardSquare = '../Harvard Square 18.pdf';
+
+const BentleyLoop = '../BentleyLoop 18.pdf';
+
+
 class BusTracker extends Component {
-    handleButtonPress = () => {
-        console.log("Hello there");
+    static propTypes = {
+        navigation: PropTypes.object,
+    }
+    handleButtonPress = (pressed) => {
+        if (pressed === "Live Bus Tracker") {
+            Linking.openURL('http://bentleyshuttle.com').catch(() => this.props.alertWithType('error', 'Sorry!', "BentleyShuttle can not be opened right now"));
+        }
+        else if (pressed === "Harvard Square Timetable") {
+            this.props.navigation.navigate('HarvardSquarePDF');
+        }
+        // else if (pressed === "Bentley Loop Timetable") {
+        //     this.props.navigation.navigate('BentleyLoopPDF');
+        // }
     };
 
     render() {
+
         return (
             <View>
-                <StatusBar barStyle="default" translucent={false} />
+                {/* <StatusBar barStyle="default" translucent={false} /> */}
                 <List>
                     {
                         list.map((item) => (
                             <ListItem
                                 key={item.title}
                                 title={item.title}
-                                rightIcon={{ name: item.icon }}
+                                leftIcon={{ name: item.icon }}
+                                rightIcon={{ name: "keyboard-arrow-right" }}
+                                onPress={() => this.handleButtonPress(item.title)}
+                                underlayColor="#E2E2E2"
                             />
                         ))
                     }
