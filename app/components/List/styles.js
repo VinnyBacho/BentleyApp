@@ -24,8 +24,7 @@ export default EStyleSheet.create({
     justifyContent: "center"
   },
   seperator: {
-    marginLeft: 20,
-    backgroundColor: "$bentleyLightBlue",
+    backgroundColor: "#E2E2E2",
     flex: 1,
     height: 2
   },

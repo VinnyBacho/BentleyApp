@@ -1,8 +1,10 @@
 import React, { Component } from "react";
-import { ScrollView, StatusBar, Linking } from "react-native";
+import { ScrollView, StatusBar, Linking, View } from "react-native";
 import { List, ListItem } from "react-native-elements";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
+
+import { Seperator } from "../components/List";
 
 const list = [
   {
@@ -48,7 +50,8 @@ class BusTracker extends Component {
     return (
       <ScrollView>
         <StatusBar barStyle="light-content" translucent={false} />
-        <List>
+        <View style={{ backgroundColor: "white" }}>
+          <Seperator />
           {list.map(item => (
             <ListItem
               key={item.title}
@@ -57,9 +60,10 @@ class BusTracker extends Component {
               rightIcon={{ name: "keyboard-arrow-right" }}
               onPress={() => this.handleButtonPress(item.title)}
               underlayColor="#E2E2E2"
+              translucent={false}
             />
           ))}
-        </List>
+        </View>
       </ScrollView>
     );
   }
