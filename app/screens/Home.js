@@ -174,7 +174,6 @@ class Home extends Component {
     );
   }
 }
-
 export default Home;
 
 const styles = EStyleSheet.create({
